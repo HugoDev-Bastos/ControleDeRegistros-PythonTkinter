@@ -1,11 +1,11 @@
 from tkinter import ttk
 from tkinter import *
-import registros
-import amostras 
-from registros import Dados_Cotacoes
-from amostras import Dados_Amostras
-from registros import Funcs_Cotacoes
-from amostras import Funcs_Amostras 
+import tela_registros
+import tela_amostras 
+from tela_registros import Dados_Cotacoes
+from tela_amostras import Dados_Amostras
+from tela_registros import Funcs_Cotacoes
+from tela_amostras import Funcs_Amostras 
 
 registros_dados = Dados_Cotacoes # sqlToExcel, backupSqliteDados
 amostras_dados = Dados_Amostras # sqlToExcel, backupSqliteDados
@@ -28,11 +28,11 @@ notebook = ttk.Notebook(root)
 notebook.pack(expand=True, fill='both')
 
 # Tela 1 : Registros
-registros_screen = registros.RegistrosScreen(notebook)
+registros_screen = tela_registros.RegistrosScreen(notebook)
 notebook.add(registros_screen, text='Registros de Fornecedores')
 
 # Tela 2 : Amostras
-amostras_screen = amostras.AmostrasScreen(notebook)
+amostras_screen = tela_amostras.AmostrasScreen(notebook)
 notebook.add(amostras_screen, text='Controle de Amostras')
 
 # Crie um menu 

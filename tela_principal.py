@@ -60,6 +60,5 @@ menu_bar.add_cascade(label="Criar Backup", menu=menu_backup)
 
 root.mainloop()
 
-# pyinstaller --onefile --windowed --noconsole --icon=icon.ico main.py
-
-
+# pyinstaller --onefile --windowed --noconsole --icon=icon.ico tela_principal.py
+# Após concluido a arquivo executável, adicione o "Icon.icon" a pasta onde está o executável.

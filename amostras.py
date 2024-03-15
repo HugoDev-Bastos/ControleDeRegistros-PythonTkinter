@@ -306,7 +306,7 @@ class AmostrasScreen(tk.Frame, Funcs_Amostras):
         ttk.Label(self.labelFrameNovoRegistro, text="Tipo").place(
             relx=0.05, 
             rely=0.01)
-        self.optionsTipos = ["PE","PP","TP",]
+        self.optionsTipos = ["ELETRÔNICO","PRESENCIAL",]
         self.OptionMenuTipo = ttk.Combobox(self.labelFrameNovoRegistro, values=self.optionsTipos)
         self.OptionMenuTipo.set("Escolher")
         self.OptionMenuTipo.place(
@@ -319,7 +319,7 @@ class AmostrasScreen(tk.Frame, Funcs_Amostras):
         ttk.Label(self.labelFrameNovoRegistro, text="Orgão").place(
             relx=0.12, 
             rely=0.01)
-        self.optionsOrgao = ["GOV AM","PREF MANAUS","COMPRASNET"] 
+        self.optionsOrgao = ["ESTADO","PREFEITURA","FEDERAL"] 
         self.OptionMenuOrgao = ttk.Combobox(self.labelFrameNovoRegistro, value=self.optionsOrgao)
         self.OptionMenuOrgao.set('Escolher')
         self.OptionMenuOrgao.place(

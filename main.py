@@ -2,7 +2,6 @@ from tkinter import ttk
 from tkinter import *
 import registros
 import amostras 
-
 from registros import Dados_Cotacoes
 from amostras import Dados_Amostras
 from registros import Funcs_Cotacoes
@@ -58,14 +57,6 @@ menu_backup.add_command(label="Fornecedores", command=registros_dados.backupSqli
 menu_backup.add_separator()
 menu_backup.add_command(label="Amostras", command=amostras_dados.backupSqliteDados)
 menu_bar.add_cascade(label="Criar Backup", menu=menu_backup)
-
-# menu_pesquisar = Menu(menu_bar, tearoff=0)
-# menu_pesquisar.add_command(label="Cotações", command=registros_funcs.mostrarTodos)
-# menu_pesquisar.add_separator()
-# menu_pesquisar.add_command(label="Amostras", command=amostras_funcs.mostrarTodos)
-# menu_bar.add_cascade(label="Consultar", menu=menu_pesquisar)
-
-# CARREGAR BACKUP
 
 root.mainloop()
 

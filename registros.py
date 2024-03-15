@@ -13,7 +13,7 @@ nomeArquivoRegistros = 'regs_registros.db'
 
 class Dados_Cotacoes():
     
-    def sqlToExcel():
+    def sqlToExcel(): 
 
         resposta = messagebox.askquestion("Confirmação", "Deseja Exportação os Registros para o Excel?")
 

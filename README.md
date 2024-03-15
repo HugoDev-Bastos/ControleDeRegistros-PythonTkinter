@@ -7,10 +7,11 @@ O principal objetivo deste programa é simplificar e automatizar o controle de f
 
 ## Funcionalidades Principais
 - **Controle de Fornecedores:** Permite o cadastro e a manutenção de informações detalhadas sobre os fornecedores.
-- 
+  
 ![Tela de Registro de fornecedores](https://github.com/HugoDev-Bastos/ControleDeRegistros-PythonTkinter/blob/main/regis_fornecedores.png)
 
-- **Registro de Amostras:** Facilita o registro e o acompanhamento das amostras coletadas, fornecendo uma visão geral do processo.
+- **Registro de Amostras:** Facilita o registro e o acompanhamento das amostras coletadas, fornecendo uma visão geral do processo
+  
 ![Tela de Registro de fornecedores](https://github.com/HugoDev-Bastos/ControleDeRegistros-PythonTkinter/blob/main/regis_amostras.png)
 
 - **Interface Intuitiva:** A interface Tkinter oferece uma experiência amigável e fácil de usar, permitindo que os usuários naveguem e interajam com o programa de forma intuitiva.

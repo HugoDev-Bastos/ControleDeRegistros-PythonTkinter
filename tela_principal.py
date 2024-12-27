@@ -21,7 +21,7 @@ root.minsize(width=1200, height=600)
 root.configure(background='#1e3743', border=5)
 
 # Define Icone
-root.iconbitmap(bitmap='icon.ico')
+# root.iconbitmap(bitmap='icon.ico')
 
 # Criando um Widget Notebook
 notebook = ttk.Notebook(root)
